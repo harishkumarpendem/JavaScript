@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap css files -->
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">JS Dom Manipulation</a>
+    </nav>
+
+    <!--MathTable-->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white">
+                        <h3>Math Table</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Enter a number</label>
+                                        <input id="req-number" type="number" class="form-control" placeholder="your number">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="multiplier">Cho0se multiplier range (1 - 10)</label>
+                                        <input type="range" class="custom-range" id="multiplier" min="1" max="10">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Result section-->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <div class="card-body bg-light">
+                <div class="row align-items-center">
+                    <div class="col-md-2">
+                        <h1 class="display-2">
+                            <span class="badge badge-info" id="number">15</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="display-4">
+                            <span class="badge badge-info">X</span>
+                        </h3>
+                    </div>
+                    <div class="col-md-2">
+                        <h1 class="display-2">
+                            <span class="badge badge-info" id="multiples">5</span>
+                        </h1>
+                    </div>
+                <div class="col-md-2">
+                    <h3 class="display-4">
+                        <span class="badge badge-info">=</span>
+                    </h3>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="display-2">
+                        <span class="badge badge-info" id="result">75</span> 
+                    </h1>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="app.js"></script>
+    <!--Bootstrap Js -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/mdb.js"></script>
+</body>
+
+</html>
